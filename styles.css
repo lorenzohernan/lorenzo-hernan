@@ -1,0 +1,94 @@
+*{
+    margin: auto;
+    padding: 0cap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+body{
+	background-color:brown;
+}
+header{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+main{
+    background-color: antiquewhite;
+    color: blue;
+    font-size: small;
+}
+footer{
+    background-color: aquamarine;
+}
+p{
+    color: brown;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2{
+    color: cornflowerblue;
+}
+ul{
+    color: blueviolet;
+    padding: 5px;
+    border: 1px solid blanchedalmond;
+}
+div{
+    padding: 100px;
+}
+head{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+h3{
+    color: beige;
+}
+img{
+    float: none;
+}
+.position{
+    clear: none;
+}
+header nav {
+    /* Agregar propiedad de float */
+    float: right;
+  }
+nav ul li {
+    /* Agregar propiedad de display */
+    display: inline-block;
+  
+    margin-right: 20px;
+    /* Agregar propiedad de line-height */
+    line-height: 80px;
+ }
+ .menu{
+    background-color: black;
+    flex:auto;
+ }
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    .menu{
+        background-color: azure;
+        font-size: 16px;
+        color: red;
+    }
+  }
+
+#check{
+    display: none;
+}
+.chdeckbtn{
+    font-size: 25px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
